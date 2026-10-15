@@ -1,7 +1,6 @@
 # SystemMonitor
 
-A lightweight Linux system monitor built with C++ and ROS 2,
-focused on real-time resource monitoring and concurrent programming.
+A lightweight Linux system monitor built with C++ and ROS 2.
 
 ## Overview
 
