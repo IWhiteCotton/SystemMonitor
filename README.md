@@ -23,7 +23,7 @@ Planned features:
 
 ## Tech Stack
 
-- **Language:** C++17
+- **Language:** C++20
 - **Framework:** ROS 2
 - **Build System:** CMake
 - **Platform:** Ubuntu 24.04
