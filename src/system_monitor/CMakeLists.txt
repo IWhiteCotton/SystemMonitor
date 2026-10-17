@@ -26,9 +26,14 @@ if(BUILD_TESTING)
 endif()
 
 add_executable(cpu_reader src/cpu_reader.cpp)
+
 install(
   TARGETS cpu_reader
   DESTINATION lib/${PROJECT_NAME}
+)
+
+target_include_directories(cpu_reader PRIVATE
+  ${CMAKE_CURRENT_SOURCE_DIR}/include
 )
 
 ament_package()
